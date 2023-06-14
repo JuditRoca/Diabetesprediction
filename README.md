@@ -1,4 +1,4 @@
-# Modelo Prediccion Diabetes
-![portada](Data\Portada.jpg)
+# Modelo Prediction Diabetes
+![portada](Data/Portada.jpg)
 
 ## Introducción 📋

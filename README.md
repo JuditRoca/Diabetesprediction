@@ -1,5 +1,5 @@
 # Predicción Salarios Data Science
 
-![portada](Data/Portada.jpg)
+![portada](Data/Portada2.jpg)
 
 ## Introducción 📋 

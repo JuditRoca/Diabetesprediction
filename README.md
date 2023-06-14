@@ -1,4 +1,5 @@
-# Modelo Prediction Salarios Data Science
+# Predicción Salarios Data Science
+
 ![portada](Data/Portada.jpg)
 
 ## Introducción 📋 

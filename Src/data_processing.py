@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 
-df_original = pd.read_csv("./Data\Raw\ds_salaries.csv")
+df_original = pd.read_csv("./data/raw/ds_salaries.csv")
 
 
 #cambio usd a eur
@@ -36,7 +36,7 @@ train_df, test_df = train_test_split(df_original, test_size=0.2, random_state=42
 def csv(nombre_archivo, archivo_guardar):
 
 
-    ruta_archivo = './Data/' + nombre_archivo + '.csv'
+    ruta_archivo = './data/' + nombre_archivo + '.csv'
     archivo_guardar.to_csv(ruta_archivo, index=False)
 
 csv("processed", df_original)

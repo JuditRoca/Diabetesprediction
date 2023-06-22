@@ -32,7 +32,9 @@ Carpeta "docs": Contiene los materiales para presentación de proyecto tanto al 
 
 Archivo "README.md": Este es el archivo principal que proporciona información general sobre el proyecto, incluyendo la descripción de la estructura de carpetas y otras instrucciones o notas relevantes.
 
-code
+<h2 id="folder-structure"> :cactus: Folder Structure</h2>
+
+    code
     .
     │
     ├── app
@@ -79,35 +81,35 @@ code
 
 En este proyecto hemos trabajado conlas siguientes variables:
 
-*Work_year: El año en que se pagó el salario.
+- *Work_year: El año en que se pagó el salario.
 
-*Experience_level: El nivel de experiencia en el trabajo durante el año.
+- *Experience_level: El nivel de experiencia en el trabajo durante el año.
 
-    EN se refiere a nivel de entrada/junior.
-    MI se refiere a nivel intermedio.
-    SE se refiere a nivel senior/experto.
-    EX se refiere a nivel ejecutivo/director.
+    - EN se refiere a nivel de entrada/junior.
+    - MI se refiere a nivel intermedio.
+    - SE se refiere a nivel senior/experto.
+    - EX se refiere a nivel ejecutivo/director.
 
-*Employment_type: El tipo de empleo para el puesto.
+- *Employment_type: El tipo de empleo para el puesto.
 
-    PT se refiere a medio tiempo.
-    FT se refiere a tiempo completo.
-    CT se refiere a contrato.
-    FL se refiere a trabajo independiente.
+    - PT se refiere a medio tiempo.
+    - FT se refiere a tiempo completo.
+    - CT se refiere a contrato.
+    - FL se refiere a trabajo independiente.
 
-*Job_title: El puesto en el que se trabajó durante el año.
+- *Job_title: El puesto en el que se trabajó durante el año.
 
-*Salary: El monto total del salario bruto pagado.
+- *Salary: El monto total del salario bruto pagado.
 
-*Salary_currency: La moneda del salario pagado, en formato de código de moneda ISO 4217.
+- *Salary_currency: La moneda del salario pagado, en formato de código de moneda ISO 4217.
 
-*Salaryinusd: El salario en USD.
+- *Salaryinusd: El salario en USD.
 
-*Employee_residence: El país de residencia principal del empleado durante el año de trabajo, en formato de código de país ISO 3166.
+- *Employee_residence: El país de residencia principal del empleado durante el año de trabajo, en formato de código de país ISO 3166.
 
-*Remote_ratio: La cantidad general de trabajo realizado de forma remota.
+- *Remote_ratio: La cantidad general de trabajo realizado de forma remota.
 
-*Company_location: El país de la oficina principal del empleador o sucursal contratante.
+- *Company_location: El país de la oficina principal del empleador o sucursal contratante.
 
-*Company_size: El número medio de personas que trabajaron para la empresa durante el año.
+- *Company_size: El número medio de personas que trabajaron para la empresa durante el año.
 

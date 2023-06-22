@@ -8,7 +8,6 @@
   <a href="#Variables.-📋 ">Variables. 📋 </a> •
 </p>  
 
-<p align="center">
 
 ## Introducción 📖
 

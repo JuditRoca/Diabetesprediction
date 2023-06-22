@@ -33,7 +33,7 @@ Carpeta "docs": Contiene los materiales para presentación de proyecto tanto al 
 Archivo "README.md": Este es el archivo principal que proporciona información general sobre el proyecto, incluyendo la descripción de la estructura de carpetas y otras instrucciones o notas relevantes.
 
 
-<h2 id="Variables"> :book: Variables</h2>
+<h2 id="Variables"> :book: Variables.</h2>
 
 En este proyecto hemos trabajado conlas siguientes variables:
 

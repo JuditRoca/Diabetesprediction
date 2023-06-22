@@ -3,20 +3,20 @@
 ![portada](Data/Portada2.jpg)
 
 <p align="center">
-  <a href="#Introducción-📖">Introducción 📖</a> •
-  <a href="#Estructura repositorio.-💾 ">Estructura repositorio. 💾 </a> •
-  <a href="#Variables.-📋 ">Variables. 📋 </a> •
+  <a href="#Introducción">Introducción</a> •
+  <a href="#Estructura-repositorio.">Estructura repositorio.</a> •
+  <a href="#Variables.">Variables.</a> •
 </p>  
 
-<p align="center">
 
-## Introducción 📖
+
+<h2 id="Introducción"> :pencil: Introducción</h2>
 
 En este repositorio buscaremos patrones y tendencias para comprender mejor la estructura salarial en este campo y crear un modelo que nos permita predecir los salarios. Los resultados podrían beneficiar tanto a los empleadores, ajustando sus políticas salariales, como a los profesionales que buscan oportunidades laborales. A través de visualizaciones y análisis estadísticos, revelaremos conocimientos clave sobre los salarios de los analistas de datos. Esto servirá como punto de partida para decisiones relacionadas con la compensación salarial.
 
 
 
-## Estructura repositorio. 💾 
+<h2 id="Estructura-repositorio."> :floppy_disk: Estructura repositorio.</h2>
 
 En la estructura de carpetas, se han incluido las siguientes secciones:
 
@@ -33,7 +33,7 @@ Carpeta "docs": Contiene los materiales para presentación de proyecto tanto al 
 Archivo "README.md": Este es el archivo principal que proporciona información general sobre el proyecto, incluyendo la descripción de la estructura de carpetas y otras instrucciones o notas relevantes.
 
 
-## Variables. 📋 
+<h2 id="Variables"> :book: Variables</h2>
 
 En este proyecto hemos trabajado conlas siguientes variables:
 

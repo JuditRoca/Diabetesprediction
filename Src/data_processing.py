@@ -29,9 +29,7 @@ df_original[cols]=df_original[cols].apply(LabelEncoder().fit_transform)
 #Eliminar variables redundantes.
 df_original.drop(columns=["salary","salary_currency","salary_in_usd"], inplace=True)
 
-from sklearn.model_selection import train_test_split
-
-train_df, test_df = train_test_split(df_original, test_size=0.2, random_state=42)
+#funcion crear csv
 
 def csv(nombre_archivo, archivo_guardar):
 
@@ -39,6 +37,5 @@ def csv(nombre_archivo, archivo_guardar):
     ruta_archivo = './data/' + nombre_archivo + '.csv'
     archivo_guardar.to_csv(ruta_archivo, index=False)
 
+#extraemos processed
 csv("processed", df_original)
-csv("test", test_df)
-csv("train", train_df)

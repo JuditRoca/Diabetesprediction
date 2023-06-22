@@ -32,40 +32,82 @@ Carpeta "docs": Contiene los materiales para presentación de proyecto tanto al 
 
 Archivo "README.md": Este es el archivo principal que proporciona información general sobre el proyecto, incluyendo la descripción de la estructura de carpetas y otras instrucciones o notas relevantes.
 
+code
+    .
+    │
+    ├── app
+    │   ├── requirements.txt
+    │
+    │
+    ├── data
+    │   ├── raw
+    │   │   ├── ds_salaries.csv
+    │   │   └
+    │   ├── processed.csv
+    │   ├── test.csv
+    │   ├── train.csv
+    │   └
+    │
+    ├── models
+    │   ├── model_config.yaml
+    │   ├── trained_model.pkl
+    │   └
+    │
+    ├── notebooks
+    │   ├── 01_EDA.ipynb
+    │   ├── 02_data_processing.ipynb  
+    │   ├── 03_entrenamiento_modelo.ipynb
+    │   ├── 04_evaluacion_modelo.ipynb
+    │   └
+    │ 
+    ├── scr
+    │   ├── data.processing.py
+    │   ├── evaluation.py
+    │   ├── model.py
+    │   └    
+    │  
+    ├── docs 
+    │   ├── 
+    │   ├── 
+    │   ├──
+    │   └  
+    │ 
+    ├── README.md
+
 
 <h2 id="Variables."> :book: Variables.</h2>
 
 En este proyecto hemos trabajado conlas siguientes variables:
 
-work_year: El año en que se pagó el salario.
+*Work_year: El año en que se pagó el salario.
 
-experience_level: El nivel de experiencia en el trabajo durante el año.
+*Experience_level: El nivel de experiencia en el trabajo durante el año.
 
-EN se refiere a nivel de entrada/junior.
-MI se refiere a nivel intermedio.
-SE se refiere a nivel senior/experto.
-EX se refiere a nivel ejecutivo/director.
+    EN se refiere a nivel de entrada/junior.
+    MI se refiere a nivel intermedio.
+    SE se refiere a nivel senior/experto.
+    EX se refiere a nivel ejecutivo/director.
 
-employment_type: El tipo de empleo para el puesto.
+*Employment_type: El tipo de empleo para el puesto.
 
-PT se refiere a medio tiempo.
-FT se refiere a tiempo completo.
-CT se refiere a contrato.
-FL se refiere a trabajo independiente.
+    PT se refiere a medio tiempo.
+    FT se refiere a tiempo completo.
+    CT se refiere a contrato.
+    FL se refiere a trabajo independiente.
 
-job_title: El puesto en el que se trabajó durante el año.
+*Job_title: El puesto en el que se trabajó durante el año.
 
-salary: El monto total del salario bruto pagado.
+*Salary: El monto total del salario bruto pagado.
 
-salary_currency: La moneda del salario pagado, en formato de código de moneda ISO 4217.
+*Salary_currency: La moneda del salario pagado, en formato de código de moneda ISO 4217.
 
-salaryinusd: El salario en USD.
+*Salaryinusd: El salario en USD.
 
-employee_residence: El país de residencia principal del empleado durante el año de trabajo, en formato de código de país ISO 3166.
+*Employee_residence: El país de residencia principal del empleado durante el año de trabajo, en formato de código de país ISO 3166.
 
-remote_ratio: La cantidad general de trabajo realizado de forma remota.
+*Remote_ratio: La cantidad general de trabajo realizado de forma remota.
 
-company_location: El país de la oficina principal del empleador o sucursal contratante.
+*Company_location: El país de la oficina principal del empleador o sucursal contratante.
 
-company_size: El número medio de personas que trabajaron para la empresa durante el año.
+*Company_size: El número medio de personas que trabajaron para la empresa durante el año.
 

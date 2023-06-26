@@ -13,3 +13,11 @@ def apply_rank_encoding(df, column_name):
     
     return df
 
+
+#evauacion modelos
+def valoracion_modelos(tipo, modelo, Xtest, ytest):
+
+    y_pred = modelo.predict(Xtest)
+    print("RF_scoore", r2_score(ytest , y_pred))
+    print("MAE", tipo, mean_absolute_error(ytest, y_pred))
+    print("MSE",tipo, mean_squared_error(ytest, y_pred))

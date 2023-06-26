@@ -57,7 +57,7 @@ df_original['company_size'] = df_original['company_size'].replace(size_mapping)
 #asignamos variables a df_processed
 
 df_processed = df_original[['work_year','salario_eur', 'experience_level', 'employment_type_encoded',
-       'job_title', 'company_location', 'employee_residence',
+       'job_title_map', 'company_location', 'employee_residence',
        'company_size', 'remote_ratio']]
 
 #funcion crear csv

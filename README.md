@@ -92,10 +92,10 @@ En este proyecto hemos trabajado conlas siguientes variables:
 
 - *Employment_type*: El tipo de empleo para el puesto.
 
-    - PT se refiere a medio tiempo.
-    - FT se refiere a tiempo completo.
+    - PT se refiere a media jornada.
+    - FT se refiere a jornada completa.
     - CT se refiere a contrato.
-    - FL se refiere a trabajo independiente.
+    - FL se refiere a freelance.
 
 - *Job_title*: El puesto en el que se trabajó durante el año.
 

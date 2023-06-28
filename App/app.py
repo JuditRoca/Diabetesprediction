@@ -48,7 +48,7 @@ def main():
         st.write(' ')
 
     with col2:
-        st.image("../Data/Portada2.jpg")
+        st.image("../Data/portada.jpg")
 
 
     st.sidebar.header('Paramentros personalizados')

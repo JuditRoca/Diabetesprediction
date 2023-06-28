@@ -39,7 +39,8 @@ En la estructura de carpetas, se han incluido las siguientes secciones:
     │
     ├── app
     │   ├── requirements.txt
-    │
+    │   ├── app.py
+    │  
     │
     ├── data
     │   ├── raw
@@ -69,7 +70,7 @@ En la estructura de carpetas, se han incluido las siguientes secciones:
     │   └    
     │  
     ├── docs 
-    │   ├── 
+    │   ├── ppt.negocio
     │   ├── 
     │   ├──
     │   └  

@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 x_test = df_test.drop(columns=["salario_eur"])
 y_test = df_test["salario_eur"]
 
-with open('./models/trained_model.pkl', 'rb') as archivo_entrada:
+with open('./models/train_model.pkl', 'rb') as archivo_entrada:
     model_pretrained = pickle.load(archivo_entrada)
 
 baseline_predictions = model_pretrained.predict(x_test)

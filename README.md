@@ -24,7 +24,7 @@ En la estructura de carpetas, se han incluido las siguientes secciones:
 
 - Carpeta "models": Contiene el modelo entrenado en formato pickle.
 
-- Carpeta "notebooks": Contiene los cuadernos Jupyter utilizados durante el desarrollo del proyecto. El cuaderno "01_EDA.ipynb" se utiliza para realizar el análisis exploratorio de los datos. El cuaderno "02_data_processing.ipynb" se utiliza para el procesamiento de los datos. El cuaderno "03_entrenamiento_modelo.ipynb" se utiliza para la creación y entrenamiento de diferentes modelos. El cuaderno "04_evaluacion_modelo.ipynb" se utiliza para evaluar los modelos y realizar comparaciones.
+- Carpeta "notebooks": Contiene los cuadernos Jupyter utilizados durante el desarrollo del proyecto. El cuaderno "01_EDA.ipynb" se utiliza para realizar el análisis exploratorio de los datos. El cuaderno "02_data_processing.ipynb" se utiliza para el procesamiento de los datos. El cuaderno "03_entrenamiento+evaluacion_modelos.ipynb" se utiliza para la creación, entrenamiento y evaluación los modelos y realizar comparaciones.
 
 - Carpeta "src": Contiene los archivos Python que contienen el código fuente para el procesamiento de datos, la creación del modelo y la evaluación. El archivo "data_processing.py" contiene el código para procesar los datos y generar el archivo "processed_df.csv". El archivo "model.py" contiene el código para crear, entrenar y guardar el modelo en la carpeta "models". El archivo "evaluation.py" contiene el código para evaluar el modelo entrenado utilizando el archivo "test.csv".
 
@@ -59,8 +59,7 @@ En la estructura de carpetas, se han incluido las siguientes secciones:
     ├── notebooks
     │   ├── 01_EDA.ipynb
     │   ├── 02_data_processing.ipynb  
-    │   ├── 03_entrenamiento_modelo.ipynb
-    │   ├── 04_evaluacion_modelo.ipynb
+    │   ├── 03_entrenamiento+evaluacion_modelos.ipynb
     │   └
     │ 
     ├── scr

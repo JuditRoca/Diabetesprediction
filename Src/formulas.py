@@ -15,9 +15,10 @@ def apply_rank_encoding(df, column_name):
 
 
 #evauacion modelos
+from sklearn.metrics import mean_absolute_error, mean_squared_error, mean_absolute_percentage_error, r2_score
 def valoracion_modelos(tipo, modelo, Xtest, ytest):
 
     y_pred = modelo.predict(Xtest)
-    print("RF_scoore", r2_score(ytest , y_pred))
+    print("RF_score", r2_score(ytest , y_pred))
     print("MAE", tipo, mean_absolute_error(ytest, y_pred))
     print("MSE",tipo, mean_squared_error(ytest, y_pred))

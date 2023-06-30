@@ -45,10 +45,10 @@ def main():
     col1, col2 = st.columns((1,2))
 
     with col1:
-        st.write('casa ')
+        st.write('')
 
     with col2:
-        st.image("ojo")
+        st.image("../Data/portada.jpg")
 
 
     st.sidebar.header('Paramentros personalizados')
